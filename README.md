@@ -1,7 +1,7 @@
 ### Step 0: Getting the basics in place
 
 1. Unless you already have git, install it e.g. `brew install git`
-2. `git clone git@github.schibsted.io:spt-pub-infra-howto/001-sample-java.git`
+2. `git clone` this repository
 3. `cd 001-sample-java`
 
 ### Step 1: Deployin' time
