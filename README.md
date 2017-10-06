@@ -1,18 +1,18 @@
 ### Step 0: Getting the basics in place
 
-1. Unless you already have git, install it e.g. `brew install git`
+1. Unless you already have git, install it (e.g. `brew install git`)
 2. `git clone` this repository
 3. `cd 001-sample-java`
+4. Install Maven and the Heroku CLI (e.g. `brew install maven heroku`)
+5. Compile and package the application by running: `mvn package`
 
 ### Step 1: Deployin' time
 
 #### Locally
-_(estimated time to complete this section: 3 minutes)_
-1. **Prerequisites:** `brew install maven heroku`
-2. **Setup:** `mvn package`
-3. **Deploy:** `heroku local`
+_(estimated time to complete this section: 30 seconds)_
+1. **Deploy:** `heroku local`
    * _(estimated deployment time: 1 second)_
-4. **Test:** [http://127.0.0.1:8090](http://127.0.0.1:8090)
+2. **Test:** [http://127.0.0.1:8090](http://127.0.0.1:8090)
 
 #### Heroku (git)
 _(estimated time to complete this section: 5 minutes)_
