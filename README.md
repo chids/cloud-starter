@@ -41,8 +41,8 @@ _(estimated time to complete this section: 25 minutes)_
       * _Connects your CLI to your account_
    * `convox switch <account>/<rack>`
       * _Makes this the default Rack for your CLI_
-2. **Setup:** `convox apps create <appname>`
-3. **Deploy:** `convox deploy --app <appname>`
+2. **Setup:** `convox apps create <appname> --wait`
+3. **Deploy:** `convox deploy --app <appname> --wait`
    * _(estimated deployment time: 3 minutes)_
    * _Get a :coffee: while the first deploy sets up the app and propagates the DNS records_
 4. **Test:** `https://<appname>-<processname>-<something>.<awsregion>.elb.amazonaws.com`
