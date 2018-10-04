@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    command: java -jar 001-sample.jar server etc/settings.yml
+    health: /admin/healthcheck
+    port: http:8080
+    environment:
+      - SCHENV=Convox
